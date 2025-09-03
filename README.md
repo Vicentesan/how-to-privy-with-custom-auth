@@ -55,8 +55,6 @@ To enable custom JWT-based authentication in your Privy application:
 
 ### Platform Support
 
-### Platform Support
-
 This integration approach works across all Privy-supported platforms:
 
 - Web applications (React)
