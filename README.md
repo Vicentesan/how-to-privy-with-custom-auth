@@ -43,6 +43,18 @@ Your authentication system must provide:
 - Proper token claims including issuer, audience, and expiration
 - HTTPS endpoint for security
 
+### Privy Dashboard Configuration
+
+To enable custom JWT-based authentication in your Privy application:
+
+1. Navigate to **User Management > Authentication** in your Privy dashboard
+2. Request access to JWT-based authentication (this feature requires approval)
+3. Once approved, configure your JWKS endpoint as shown below:
+
+![Privy Dashboard JWT Configuration](./assets/privy-dashboard-jwt-config.png)
+
+### Platform Support
+
 ### Platform Support
 
 This integration approach works across all Privy-supported platforms:
