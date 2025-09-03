@@ -1,8 +1,5 @@
 # How to Privy with Custom Authentication
 
-> [!NOTE]
-> If you are using an authentication service such as Clerk, Auth0, or Supabase Auth, please refer to the "Auth Services" section,
-
 This repository demonstrates how to integrate Privy.io with custom authentication using JWKS (JSON Web Key Set) on the server side. Privy is a user onboarding and wallet infrastructure platform that enables developers to build better products on crypto rails by embedding asset control directly into applications.
 
 If you're unfamiliar with JWKS, refer to the comprehensive guide at [How to JWKS](https://github.com/vicentesan/how-to-jwks) before proceeding.
@@ -26,7 +23,7 @@ Privy integrates with any asymmetric JWT-based authentication system through JWK
 
 ### Why this matters now?
 
-With the growth of libraries like [better-auth](https://github.com/better-auth), [lucia-auth](https://lucia-auth.com), and [authjs](https://authjs.dev), developers are increasingly moving away from vendor lock-in authentication services and implementing their own authentication systems. This shift represents a fundamental change in how modern applications handle user identity and security.
+With the growth of libraries like [better-auth](https://github.com/better-auth), [lucia-auth](https://lucia-auth.com), and [authjs](https://authjs.dev), developers are increasingly moving away from vendor lock-in authentication services and implementing their own authentication systems. This shift represents a fundamental change in how modern applications handle user identity and security. This guide works not only with the mentioned libraries but with any service that provides a JWKS endpoint.
 
 ### Authentication Flow
 
