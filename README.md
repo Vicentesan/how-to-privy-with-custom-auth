@@ -68,7 +68,7 @@ This integration approach works across all Privy-supported platforms:
 ### Installation
 
 ```bash
-bun add @privy-io/react-auth
+bun add @privy-io/server-auth
 ```
 
 ### Core Functions
